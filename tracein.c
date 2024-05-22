@@ -91,9 +91,6 @@ verify_trace_format()
 	case 'b':				/* binary format, similar to din */
 		  input_function = tracein_binary;
 		  break;
-	case 's':				/* mm sbc.gz format */
-		  input_function = tracein_sbc;
-		  break;
 	}
 }
 
